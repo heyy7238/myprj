@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@import url("reset.css");
+@import url("common.css");
+@import url("main.css");
+@import url("join.css");
+@import url("login.css");
+
+/* 모바일 */
+@media screen and (max-width:768px){
+/*    aside menu     */
+#btn_aside{display: block;}
+#btn_search{float:right;display: inline-block;width: 30px;margin-right: 20px;}
+#btn_search img{width: 100%;}
+
+#header .header_bottom .cont .logo{display:inline-block;width: 87px;}
+#dim .dim_inner{position: fixed;width: 35%;height:100%; background: #2578BB;z-index:20;}
+#dim .dim_inner ul li{border-bottom:1px solid #438cc3;text-align: center;}
+#dim .dim_inner ul li a{padding:20px;line-height:50px;display:block;font-size:15px;font-weight:700;color:#fff;}
+
+/*    mobile_menu     */
+#mobile_menu{display:none;width:100%;height:100%;background:#f9f9f9;position: absolute;top: 90px;z-index:5;}
+#mobile_menu .result_wrap{max-width: 400px;margin: 0 auto;}
+#mobile_menu p{font-size:11px;padding-top:20px;}
+#mobile_menu ul{padding-top: 20px;}
+#mobile_menu ul li a{display:block;padding:15px;}
+#mobile_menu ul li:hover{background: #fff;}
+#mobile_menu input{margin-top: 25px;}
+
+#header .header_inner{width: 100%;}
+#header .header_bottom{text-align: center;}
+#header .search_wrap{width: 100%;margin: 0;display: none;}
+#header .search_wrap input[type="text"]{width: 79%;}
+#header .search_wrap input[type="submit"]{width: 20%;}
+#header .header_bottom .cont .logo{position: absolute; left:50%;transform: translateX(-50%);}
+#header .header_bottom .cont .logo a{display:inline-block;}
+#header .header_bottom .cont #btn_aside{float: left;margin-left: 20px;}
+#header .header_bottom .cont #btn_aside img{width: 25px;height: 30px;}
+#header .header_bottom .cont .kakao_sns,#header .header_bottom .cont .top_banner{display: none;}
+#header .header_top{display: none;}
+#header .gnb{display: none;}
+#header .gnb ul{width: 100%;}
+
+#container{width: 100%;}
+#container .price_wrap{width: 100%;display: none;}
+#container .cont01{width: 100%;}
+#container .cont01 ul li{display:block;width: 100%;}
+#container .cont02{width: 100%;}
+#container .cont02_top ul li button{float: none;width: 100%;}
+#container .cont02 .grid-item{float:left; width: 50%;height:300px; box-sizing: border-box}
+#container .cont03{width: 100%;}
+#container .cont03 > div{float: none;width: 100%;}
+#container .cont03 .delivery_wrap .delivery_inner ul li{width: 1000px;}
+#footer .footer_inner{width: 100%;} 
+
+/* 태블릿 pc */
+@media screen and (max-width:992px){
+ 
+}

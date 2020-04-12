@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* * {
+  outline:1px solid red;
+} */
+div { box-sizing: border-box; padding:3px; }
+body { background-color:#F5F6F7; font-size:0.825rem;font-family: "Noto Sans KR", sans-serif !important;}
+form { margin-top:73px; }
+
+.errmsg { color:red; font-size:0.7rem; font-weight:bold; }
+
+.mycontainer {
+  display: flex; justify-content: center;
+}
+.content{
+  display:flex;
+  flex-direction: column;
+  width:300px;
+  background:#ececec;
+}
+.content div { flex:1 1 20px;}
+.content div:nth-child(3n) {
+  /* flex: 1 1 20px; */
+  border:none;
+  padding:1px;
+  padding-left:10px;
+  background-color:#ececec;
+  border-radius: 5px;
+}
+.join-title{ text-align: center; }
+
+input { width:240px;  }
+input[type=radio] { width:auto; }
+
+#joinBtn {
+	margin-left:-9px;
+  background-color: #03C75A;
+  color:white;
+  font-weight:900;
+  border:1px solid #03C75A;
+  padding:5px;
+  height:45px;
+}
+i{ padding:5px 4px;}
+label{ vertical-align: top;}
+button, select{}
+button{ width:290px;}
+select{ width:270px;}
+.errmsg { color:red; font-size:0.7rem; font-weight:bold; }

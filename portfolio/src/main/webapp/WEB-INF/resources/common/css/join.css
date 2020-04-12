@@ -1,0 +1,19 @@
+#container .container_inner .section_wrap{width: 980px;margin: 0 auto;}
+#container .container_inner .section {margin: 30px 0}
+#container .container_inner .section h3{padding:10px 0 10px 15px;font-size: 16px;border-left: 3px solid #696969;}
+#container .container_inner .section h3 span{float:right;font-size: 12px;}
+#container .container_inner .section table{margin-top:20px;}
+#container .container_inner .section table input[type="text"],
+#container .container_inner .section table input[type="password"]{width: 150px;}
+#container .container_inner .section table tr{border: 1px solid #e7e7e7;}
+#container .container_inner .section table th{text-align: left;padding:15px 12px;background: #f9f9f9;}
+#container .container_inner .section table td{padding:8px 12px;}
+#container .container_inner .section .btn_area{padding:20px 0;text-align: center;}
+#container .container_inner .section .btn_area li{display:inline-block;}
+#container .container_inner .section .btn_area a{display:inline-block;width: 130px;height: 45px;line-height: 50px;}
+#container .container_inner .section .btn_area li:first-child a{background: #7fbdd6;color:#fff;}
+#container .container_inner .section .btn_area li:last-child a{background: #ebebeb;}
+#container .container_inner .section .address_area .txt_postcode{width: 80px;}
+#container .container_inner .section .address_area .btn_postcode{cursor: pointer;}
+#container .container_inner .section .address_area .txt_address{width: 400px;}
+#container .container_inner .section .address_area .txt_detail{width: 300px;}

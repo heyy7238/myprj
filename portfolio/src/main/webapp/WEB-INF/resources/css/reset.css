@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+/* * { outline:1px solid red;} */
+html,body { margin:0; padding:0}
+
+
+body{
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-size: 1em; /* 16px */
+}  
+
+ol,ul {
+  margin:0; padding:0;
+  list-style: none;       /* li 불릿 제거 */
+}
+a{
+	color:rgba(0,0,0,1);
+  text-decoration: none;  /* 밑줄 제거 */
+}
+a:link,
+a:active,
+a:focus{
+  text-decoration: none;
+}
+
+img{ border:0; vertical-align: top;}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.clearfix:before{   /* float속성 해제 */
+  content:""; display:block; clear: both;
+}
+.clearfix:after{   /* float속성 해제 */
+  content:""; display:block; clear: both;
+}

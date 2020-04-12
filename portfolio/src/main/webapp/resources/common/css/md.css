@@ -1,0 +1,4 @@
+@media screen and (max-width:768px){
+  #header .search_wrap{display: none;}
+  #container .container_inner .section_wrap{width: 100%;}
+}
